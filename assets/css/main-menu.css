@@ -1,0 +1,22 @@
+#wheel-pic-row
+{
+	margin:10px 0 10px 0;
+}
+
+#wheel-pic
+{ 
+	border: 8px solid #FFD800;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+}
+
+#audio-row
+{
+	margin:10px 0 10px 0;
+}
+
+#buttons-row
+{
+	margin:20px 0 20px 0;
+}

@@ -1,0 +1,21 @@
+a.create-puzzle-button
+{
+	margin: 15px 0;
+}
+
+a.edit-puzzle-button
+{
+	margin-right: 15px;
+}
+
+span.answer
+{
+	padding: 0 3px;
+	background-color: #C5D9E3;
+	color: #C5D9E3;
+}
+
+span.answer:hover
+{
+	color: #000000;
+}

@@ -1,0 +1,167 @@
+div#data
+{
+	display:none !important;
+}
+
+div.data-element
+{
+	float:left;
+	margin: 5px;
+}
+
+span.data-label
+{
+	color:#fff;
+	background-color:#999;
+	padding:3px;
+}
+
+span.underline
+{
+	text-decoration:underline;
+}
+
+.game-frame
+{ 
+	border: 8px solid #FFD800;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+}
+
+#consonant-group
+{
+	margin-right:50px;
+}
+
+button.letter-button
+{
+	margin: 4px 4px 4px 0;
+	width: 38px;
+}
+
+button.letter-used
+{
+	width: 38px;
+	height: 37px;
+	background-color:#000000 !important; 
+	color: #999 !important;
+	font-size: 15px;
+	line-height: normal;
+	font-weight: bold;
+	border-color: #000000;
+	cursor: default;
+}
+
+#letter-group
+{
+	background-color:#000000;
+}
+
+.selected-player
+{ 
+	border: 8px solid #FFD800 !important;
+}
+
+.player-frame
+{ 
+	margin: 10px 0 0 0;
+	border: 8px solid #000000;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+}
+
+.player-button
+{
+	margin: 5px 5px 0 0;
+}
+
+#quit-button
+{
+	margin: 20px 10px 0 0;
+}
+
+#next-game-button
+{
+	margin: 20px 0 0 0;
+}
+
+div#answerState
+{
+	font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    line-height: 36px;
+	font-size:36px;
+	font-weight:bold;
+	margin: 0 0 15px 0;
+}
+
+td.scoreTd
+{
+	text-align:right;
+}
+
+td.the_wheel
+{
+	background-image: url(../img/wheel/wheel_back.png);
+	background-position: center;
+	background-repeat: none;
+}
+
+/* Do some css reset on selected elements */
+h1, p
+{
+	margin: 0;
+}
+
+div.power_controls
+{
+	margin-right:70px;
+}
+
+/* Styles for the power selection controls */
+table.power
+{
+	background-color: #cccccc;
+	cursor: pointer;
+	border:1px solid #333333;
+}
+
+table.power th
+{
+	background-color: white;
+	cursor: default;
+}
+
+td.pw1
+{
+	background-color: #6fe8f0;
+}
+
+td.pw2
+{
+	background-color: #86ef6f;
+}
+
+td.pw3
+{
+	background-color: #ef6f6f;
+}
+
+/* Style applied to the spin button once a power has been selected */
+.clickable
+{
+	cursor: pointer;
+}
+
+/* Other misc styles */
+.margin_bottom
+{
+	margin-bottom: 5px;
+}
+
+p.noCanvasMsg
+{
+	color: white;
+}

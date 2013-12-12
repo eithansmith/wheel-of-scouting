@@ -1,0 +1,276 @@
+@CHARSET "ISO-8859-1";
+
+* 
+{
+	margin: 0;
+}
+
+html, body 
+{
+	height: 100%;
+}
+
+body
+{
+	background-image:url('../img/wheel/fortune_background.jpg');
+	background-color:#cccccc;
+}
+
+.center
+{
+	text-align:center;
+}
+
+#wheel-logo-row
+{
+	margin:10px 0 10px 0;
+}
+
+.tr-selected td
+{
+	background-color: #D9EDF5 !important;
+}
+
+table#puzzle-list tbody:hover
+{
+	cursor:pointer !important; /* other browsers */
+}
+
+table#puzzle-list thead tr th 
+{
+    background-color: #C5D9E3 !important;
+}
+
+div#puzzle-list-div
+{
+	height:350px !important;
+	overflow:auto;
+}
+
+#wrapper 
+{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#footer, #push 
+{
+	height: 142px; /* .push must be the same height as .footer */
+	text-align:center;
+}
+
+.no_margin
+{
+	margin:0;
+}
+
+.nowrap
+{
+	white-space: nowrap;
+}
+
+img 
+{
+	border: none;
+}
+
+
+.error
+{
+	color:red;
+	font-size:115%;
+   	font-weight:bold;
+}
+
+/************** fake link class - used in the data table (primarily)
+		to emulate a fake link ***********************/
+.fakeLink 
+{
+	color:#08C;
+	text-decoration:none;
+	cursor:hand; /* ie */
+	cursor:pointer; /* other browsers */
+}
+
+.fakeLink:hover 
+{
+	color:#005580;
+	text-decoration:underline;
+}
+
+.info, .success, .warning, .error 
+{
+    border: 1px solid;
+    margin: 15px auto;
+    padding:15px 20px 15px 55px;
+    width: 500px;	
+    font: bold 12px verdana;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.info 
+{
+    color: #00529B;
+    background: #BDE5F8 url('../img/icon-info.png') no-repeat 10px center;
+}
+
+.success 
+{
+    color: #4F8A10;
+    background: #DFF2BF url('../img/icon-tick.png') no-repeat 10px center;
+}
+
+.warning 
+{
+    color: #9F6000;
+    background: #FEEFB3 url('../img/icon-warning.png') no-repeat 10px center;
+}
+
+.error 
+{
+    color: #D8000C;
+    background: #FFBABA url('../img/icon-cross.png') no-repeat 10px center;
+}
+
+/* tables */
+table.tablesorter thead tr .header
+{
+	background-image: url('../img/precoat-custom/bg.gif');
+	background-repeat:no-repeat;
+	background-position:right center;
+	padding: 5px 25px 5px 5px;
+	cursor: pointer;
+}
+table.tablesorter thead tr .headerSortUp 
+{
+	background-image: url('../img/precoat-custom/asc.gif');
+}
+table.tablesorter thead tr .headerSortDown 
+{
+	background-image: url('../img/precoat-custom/desc.gif');
+}
+
+.wordwrap 
+{ 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
+
+.space
+{
+	height:20px;		
+}
+
+.float, .floatLeft
+{
+	float: left;
+}
+
+.floatRight
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both;
+}
+
+input.input-1, span.input-1
+{
+	width:8px;
+}
+input.input-2, span.input-2
+{
+	width:16px;
+}
+input.input-3, span.input-3
+{
+	width:24px;
+}
+input.input-4, span.input-4
+{
+	width:32px;
+}
+input.input-5, span.input-5
+{
+	width:40px;
+}
+input.input-6, span.input-6
+{
+	width:48px;
+}
+input.input-7, span.input-7
+{
+	width:56px;
+}
+input.input-8, span.input-8
+{
+	width:64px;
+}
+input.input-9, span.input-9
+{
+	width:72px;
+}
+input.input-10, span.input-10
+{
+	width:80px;
+}
+input.input-11, span.input-11
+{
+	width:88px;
+}
+input.input-12, span.input-12
+{
+	width:96px;
+}
+input.input-13, span.input-13
+{
+	width:104px;
+}
+input.input-14, span.input-14
+{
+	width:112px;
+}
+input.input-15, span.input-15
+{
+	width:120px;
+}
+input.input-22, span.input-22
+{
+	width:176px;
+}
+input.input-40, span.input-40
+{
+	width:320px;
+}
+input.input-60, span.input-60
+{
+	width:420px;
+}
+
+.form_field_error {
+	background-color: #FFFF96 !important;
+}
+
+.text_align_right {
+	text-align:right;
+}
+
+.text_align_left {
+	text-align:left;
+}
+
+.text_align_center {
+	text-align:center;
+}
